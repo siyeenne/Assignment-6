@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Jujutsu {
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.println("Do you want to know Sitti’s favorite Jujutsu Kaisen characters?");
         String choice = input.nextLine();
