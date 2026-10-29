@@ -9,7 +9,7 @@ public class Jujutsu {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Do you want to know Sitti’s favorite Jujutsu Kaisen characters?");
-        String choice = scanner.nextLine();
+        String choice = input.nextLine();
 
         while (choice.equalsIgnoreCase("yes")) {
 
@@ -24,7 +24,7 @@ public class Jujutsu {
             System.out.println(JujutsuCharacters);
 
             System.out.print("Do you want to know Sitti’s favorite Jujutsu Kaisen characters again?");
-            choice = scanner.nextLine();
+            choice = input.nextLine();
 
         }
 
